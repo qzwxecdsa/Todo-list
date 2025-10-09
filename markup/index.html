@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Клюев Максим 4321-22</title>
+</head>
+
+<body>
+    <header>
+        
+        <div class="container">
+            <h1>Список задач</h1>
+        </div>
+    </header>
+
+    <section class="container">
+        <section class="task">
+            <h2 class="task_title">Новая задача</h2>
+            <div class="input-group">
+                <input type="text" class="task_input" placeholder="Название задачи ...">
+                <button class="task_button">+ Добавить</button>
+            </div>
+        </section>
+
+        <section class="board_container">
+
+            <div class="backlog_column">
+                <h3>Бэклог</h3>
+                <ul class="task-list">
+                    <li class="task_card">Выучить JS</li>
+                    <li class="task_card">Выучить React</li>
+                    <li class="task_card">Сделать  домашку</li>
+                </ul>
+            </div>
+
+            <div class="progress_column">
+                <h3>В процессе</h3>
+                <ul class="task-list">
+                    <li class="task_card">Выпить смузи</li>
+                    <li class="task_card">Попить воды</li>
+                </ul>
+            </div>
+
+            <div class="ready_column">
+                <h3>Готово</h3>
+                <ul class="task-list">
+                    <li class="task_card">Позвонить маме</li>
+                    <li class="task_card">Погладить кота</li>
+                </ul>
+            </div>
+
+            <div class="del_column">
+                <h3>Корзина</h3>
+                <ul class="task-list">
+                    <li class="task_card">Сходить погулять</li>
+                    <li class="task_card">Прочитать Войну и Мир</li>
+                </ul>
+                <button>✕ Очистить </button> 
+            </div>
+
+        </section>
+    </section>
+
+</body>
+</html>
