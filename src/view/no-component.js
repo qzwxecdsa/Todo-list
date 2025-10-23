@@ -2,8 +2,8 @@ import { AbstractComponent } from '../framework/view/abstract-component.js';
 
 function createPlugComponentTemplate() {
     return (
-        `<div class='nullTask'>   
-            Нет задач
+        `<div class='no_Task'>   
+            Задач нет
         </div>`
       );
 }

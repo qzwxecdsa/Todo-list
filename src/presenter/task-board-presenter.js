@@ -4,7 +4,7 @@ import TaskBoardComponent from "../view/taskboard_component.js";
 import { render } from "../framework/render.js";
 import { Status, StatusLabel } from "../const.js";
 import ClearButtonComponent from "../view/clearbutton_component.js";
-import PlugComponent from "../view/plugComponent.js";
+import PlugComponent from "../view/no-component.js";
 
 export default class TaskBoardPresenter {
     taskListComponent = new TaskListComponent();
