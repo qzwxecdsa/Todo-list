@@ -3,7 +3,7 @@ import { AbstractComponent } from '../framework/view/abstract-component.js';
 function createPlugComponentTemplate() {
     return (
         `<div class='no_Task'>   
-            Задач нет
+            Перетащите карточку
         </div>`
       );
 }
